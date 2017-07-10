@@ -2596,8 +2596,11 @@
 		}
 
 		#project-header{
-			font-size: 2.5em;
-			text-decoration: underline;
+			font-size: 2.0em;
+			/*text-decoration: underline;*/
+			/*margin-bottom: 10px;*/
+			padding-bottom: 10px;
+
 		}
 
 		#invoke-gif{
@@ -2672,7 +2675,7 @@
 			and a negative margin (to move everything up a bit).
 		*/
 
-		margin-top: -260px;
+		margin-top: -520px;
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
 		text-align: center;
@@ -2680,6 +2683,7 @@
 
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
+
 			content: '';
 			height: calc(460px + 6em);
 			left: 50%;
